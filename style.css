@@ -1,4 +1,32 @@
-.heading {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: aqua;
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color:blueviolet;
+}
+.lorem {
+    display: inline;
+    margin: 20px;
+    padding: 10px;
+    border: solid;
+    color: deeppink;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-decoration: double;
+    line-height: 20%;
+    letter-spacing: normal;
+    text-align: center;
+    text-shadow: black;
+    text-indent:initial;
+}
+div {
+    height: 50px;
+    border: solid;
+    overflow: scroll;
+    margin: 10px;
+    text-align: center;
+    background-color: aqua;
 }
