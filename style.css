@@ -1,5 +1,6 @@
-h1 {
+.firstheading {
     font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
 }
 p {
     color:blueviolet;
@@ -23,10 +24,20 @@ p {
     text-indent:initial;
 }
 div {
+    color: black;
     height: 50px;
     border: solid;
     overflow: scroll;
     margin: 10px;
     text-align: center;
-    background-color: aqua;
+    background-color: yellowgreen;
+}
+h2 {
+    color: bisque;
+    background-color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+span {
+    visibility: hidden;
 }
